@@ -1,0 +1,24 @@
+<!--
+  ~  Copyright © 2015,
+  ~ Written under contract by Robosoft Technologies Pvt. Ltd.
+  -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/colorPrimary"
+             tools:context=".ui.activities.LauncherActivity">
+
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold"/>
+
+</FrameLayout>

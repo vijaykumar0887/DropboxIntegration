@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~  Copyright © 2015,
+  ~ Written under contract by Robosoft Technologies Pvt. Ltd.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_signout"
+        android:title="Sign out"/>
+
+
+</menu>
